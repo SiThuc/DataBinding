@@ -1,4 +1,4 @@
-package com.example.databindingexample;
+package com.example.databindingexample.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
@@ -6,6 +6,10 @@ import androidx.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.widget.Toast;
 
+import com.example.databindingexample.MainActivityPresenter;
+import com.example.databindingexample.TemperatureData;
+import com.example.databindingexample.Presenter.MainActivityContract;
+import com.example.databindingexample.R;
 import com.example.databindingexample.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity implements MainActivityContract.View{

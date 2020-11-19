@@ -3,6 +3,8 @@ package com.example.databindingexample;
 import androidx.databinding.BaseObservable;
 import androidx.databinding.Bindable;
 
+import com.example.databindingexample.BR;
+
 public class TemperatureData extends BaseObservable {
     private String location;
     private String celsius;
